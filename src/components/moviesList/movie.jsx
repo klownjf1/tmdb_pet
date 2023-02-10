@@ -30,7 +30,7 @@ let Movie = ({moviesList, fetchMovies, fetchMovie}) => {
 
         movies = moviesList.initialState.results.map((item, index) =>
             <Grid align="center" xs={3} key={index} item={true}>
-                <a href = {`/films/${item.id}`} className={s.movie__titleLink}>
+                <a href = {`films/${item.id}`} className={s.movie__titleLink}>
                     <ImageListItem>
 
                         <img
