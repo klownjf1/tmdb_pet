@@ -23,7 +23,7 @@ let MoviesList = ({fetchMovie , fetchMovies, fetchMoviesByGenre, fetchSearchMovi
 
             <Header genres={genresList}/>
             <div className={s.container}>
-                <Routes>
+                <Routes basename = '/tmdb_pet'>
                     <Route path = '/page/:currentPage' element={<Movie fetchMovies = {fetchMovies} moviesList={moviesList} fetchMovie = {fetchMovie}/>} />
                     <Route path = '/films/:id' element = {<FilmPage movie = {movie} fetchMovie = {fetchMovie} />}  />
                     <Route path = '/genre/:id/page/:currentPage' element= {<GenrePage fetchMoviesByGenre = {fetchMoviesByGenre}/>} />
