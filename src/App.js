@@ -1,25 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import {useDispatch} from "react-redux";
+import MoviesList from "./components/moviesList/moviesList";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import React, {useEffect, useState} from "react";
+import {fetchGenres} from "./redux/genresReducer";
+import {fetchMovie} from "./redux/movieReducer";
+import {fetchMovies} from "./redux/moviesReducer";
+import {fetchMoviesByGenre} from "./redux/moviesByGenreReducer";
+import {fetchSearchMovies} from "./redux/moviesSearchReducer";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const dispatch = useDispatch()
+
+
+
+    useEffect(() => {
+        dispatch(fetchGenres())
+    }, [dispatch])
+
+
+
+    return (
+        <div className="App">
+            <MoviesList fetchMovie = {fetchMovie} fetchMovies = {fetchMovies} fetchMoviesByGenre = {fetchMoviesByGenre} fetchSearchMovies = {fetchSearchMovies}/>
+        </div>
+    );
 }
 
 export default App;
