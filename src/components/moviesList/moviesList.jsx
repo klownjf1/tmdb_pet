@@ -23,11 +23,11 @@ let MoviesList = ({fetchMovie , fetchMovies, fetchMoviesByGenre, fetchSearchMovi
 
             <Header genres={genresList}/>
             <div className={s.container}>
-                <Routes basename = '/tmdb_pet'>
-                    <Route path = '/page/:currentPage' element={<Movie fetchMovies = {fetchMovies} moviesList={moviesList} fetchMovie = {fetchMovie}/>} />
-                    <Route path = '/films/:id' element = {<FilmPage movie = {movie} fetchMovie = {fetchMovie} />}  />
-                    <Route path = '/genre/:id/page/:currentPage' element= {<GenrePage fetchMoviesByGenre = {fetchMoviesByGenre}/>} />
-                    <Route path = '/search/:searchTerm/page/:currentPage' element={<SearchMovieList fetchSearchMovies = {fetchSearchMovies} moviesSearchList = {moviesSearchList}/>} />
+                <Routes>
+                    <Route path = 'klownjf1.github.io/tmdb_pet//page/:currentPage' element={<Movie fetchMovies = {fetchMovies} moviesList={moviesList} fetchMovie = {fetchMovie}/>} />
+                    <Route path = 'klownjf1.github.io/tmdb_pet//films/:id' element = {<FilmPage movie = {movie} fetchMovie = {fetchMovie} />}  />
+                    <Route path = 'klownjf1.github.io/tmdb_pet//genre/:id/page/:currentPage' element= {<GenrePage fetchMoviesByGenre = {fetchMoviesByGenre}/>} />
+                    <Route path = 'klownjf1.github.io/tmdb_pet//search/:searchTerm/page/:currentPage' element={<SearchMovieList fetchSearchMovies = {fetchSearchMovies} moviesSearchList = {moviesSearchList}/>} />
                     <Route
                         path="/"
                         element={<Navigate to="/page/1"/>}
