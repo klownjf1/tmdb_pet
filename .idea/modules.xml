@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../LR4/.idea/LR4.iml" filepath="$PROJECT_DIR$/../LR4/.idea/LR4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../imdb/.idea/imdb.iml" filepath="$PROJECT_DIR$/../imdb/.idea/imdb.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/imdb_pet.iml" filepath="$PROJECT_DIR$/.idea/imdb_pet.iml" />
+      <module fileurl="file://D:/save work/learn_react/.idea/learn_react.iml" filepath="D:/save work/learn_react/.idea/learn_react.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../manitas/.idea/manitas.iml" filepath="$PROJECT_DIR$/../manitas/.idea/manitas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../omdb/.idea/omdb.iml" filepath="$PROJECT_DIR$/../omdb/.idea/omdb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../omdb-project/.idea/omdb-project.iml" filepath="$PROJECT_DIR$/../omdb-project/.idea/omdb-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../portfolio/.idea/portfolio.iml" filepath="$PROJECT_DIR$/../portfolio/.idea/portfolio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pract/.idea/pract.iml" filepath="$PROJECT_DIR$/../pract/.idea/pract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../weather/.idea/weather.iml" filepath="$PROJECT_DIR$/../weather/.idea/weather.iml" />
     </modules>
   </component>
 </project>

@@ -4,5 +4,14 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="imdb" />
+    <orderEntry type="module" module-name="omdb" />
+    <orderEntry type="module" module-name="omdb-project" />
+    <orderEntry type="module" module-name="learn_react" />
+    <orderEntry type="module" module-name="manitas" />
+    <orderEntry type="module" module-name="weather" />
+    <orderEntry type="module" module-name="portfolio" />
+    <orderEntry type="module" module-name="LR4" />
+    <orderEntry type="module" module-name="pract" />
   </component>
 </module>
